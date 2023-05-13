@@ -1,0 +1,60 @@
+/* este archivo no necesita export */
+.card{
+  background: rgb(206, 224, 38);
+  width: 300px;
+  height: 350px;
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 2px  rgba(0, 0, 0, 0.7);
+  margin: 1em;
+}
+.card:hover {
+  border-radius: 10px;
+  cursor: pointer;
+  transform: scale(1.1);
+  background: rgb(206, 224, 38);
+}
+
+.card img{
+  height: 90%;
+  width: 90%;
+  transition: all 0.4s;
+  opacity: 1;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.card:hover img{
+  height: 0px;
+  opacity: 0;
+}
+
+.content {
+  opacity: 0;
+  justify-content: center;
+  color:aliceblue;
+  align-items: center;
+  transition: all 0.4s;
+  font-size: 10px;
+  transform: rotate(90deg) scale(-1);
+}
+
+.card:hover .content {
+  padding: 5px;
+  opacity: 1;
+  font-size: 10px;
+  transform: rotate(0deg);
+}
+
+.content button{
+  background-color: brown;
+  color: aliceblue;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+.content button:hover{
+  transform: scale(1.1);
+}
+
+

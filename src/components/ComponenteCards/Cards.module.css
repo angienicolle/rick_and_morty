@@ -1,0 +1,9 @@
+
+/* este archivo no necesita export */
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
