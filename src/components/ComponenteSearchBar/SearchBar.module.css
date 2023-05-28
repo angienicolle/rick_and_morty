@@ -1,0 +1,13 @@
+.agregar{
+    /* display: block; */
+    /* float: left; */
+    background-color: black;
+}
+
+.agregar button{
+    background-color: rgb(255, 0, 106);
+    border-radius: 15px;
+    margin: 15px;
+    color: white;
+    cursor: pointer;
+}
